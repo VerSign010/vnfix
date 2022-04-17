@@ -1,0 +1,30 @@
+{
+  "name": "vpro",
+  "description": "搭建项目",
+  "keywords": [
+    "vmess or vless"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "设定协议类型vmess或vless,默认是vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "设定UUID,可生成UUID的网站: https://www.uuidgenerator.net",
+      "value": "",
+      "required": true
+    },
+    "WS_PATH": {
+      "description": "设置路径",
+      "value": "",
+      "required": true
+    }  
+  },
+  "website": "https://github.com/用户名/仓库名",
+  "repository": "https://github.com/用户名/仓库名",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
